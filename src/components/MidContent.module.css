@@ -1,0 +1,17 @@
+.midContent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8em;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.midContent p{
+    width: 800px;
+    font-size: large;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 2em;
+}
+img{
+    border-radius: 30px;
+}

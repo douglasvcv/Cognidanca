@@ -1,0 +1,45 @@
+.aos{
+    margin-bottom: 3em;
+}
+
+.profile_container{
+    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: max-content;
+    
+}
+
+.first_div{
+    margin-right: 50px;
+}
+
+.first_div h1{
+    margin-bottom: 1em;
+    color: white;
+}
+
+.img{
+    width: 180px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: .2px solid rgb(132, 42, 132);
+    
+}
+
+.profile_container h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile_container h1, h2, h3, p{
+    color: black;
+}
+
+h2, h3, p{
+    font-family: "Montserrat", sans-serif;
+}

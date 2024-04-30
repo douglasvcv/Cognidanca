@@ -1,0 +1,20 @@
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container a{
+    margin: 10em 3em;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: .5s ;
+}
+.button_container a:hover{
+   color: white;
+   background: linear-gradient(#e66465, #9198e5);
+}

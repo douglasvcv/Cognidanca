@@ -1,0 +1,31 @@
+
+
+.typing_animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 9em auto;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 17em;
+  }
+  
+  .typing_animation span {
+    margin: 0 3em;
+    display: block;
+    opacity: 0; /* Inicia com opacidade zero */
+    animation: typing 3s forwards;
+    font-family: 'Open Sans', sans-serif ;
+  }
+  
+  @keyframes typing {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .typing_animation span:nth-child(1) { animation-delay: 0s; }
+  .typing_animation span:nth-child(2) { animation-delay: .9s; } /* Ajuste o atraso conforme necessário */
+  .typing_animation span:nth-child(3) { animation-delay: 3.7s; } /* Ajuste o atraso conforme necessário */
+  
