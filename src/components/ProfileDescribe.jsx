@@ -23,7 +23,7 @@ function ProfileDescribe(){
             </div>
             <div>
             <h2>Natália Souza</h2>
-            <h3>Terapeuta Ocupacional</h3>
+            <h3 className={styles.cargo}>Terapeuta Ocupacional</h3>
             <p>Idealizadora do Método Cognidança.</p>
             </div>
       </div>

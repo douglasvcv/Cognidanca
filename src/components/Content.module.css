@@ -9,15 +9,17 @@
     margin: 9em auto;
     font-size: 24px;
     display: inline-block;
-    margin-bottom: 17em;
+    margin-bottom: 3em;
   }
   
   .typing_animation span {
     margin: 0 3em;
+    color: #755483;
     display: block;
     opacity: 0; /* Inicia com opacidade zero */
     animation: typing 3s forwards;
     font-family: 'Open Sans', sans-serif ;
+    font-weight: 500;
   }
   
   @keyframes typing {

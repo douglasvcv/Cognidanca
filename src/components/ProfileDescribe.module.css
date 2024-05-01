@@ -11,7 +11,8 @@
     padding: 20px;
     margin: auto;
     width: max-content;
-    
+    border-radius: 40px;
+    background: #f1eff3;
 }
 
 .first_div{
@@ -20,9 +21,11 @@
 
 .first_div h1{
     margin-bottom: 1em;
-    color: white;
+    color: #755483;
 }
-
+.cargo{
+    color: #c888e3;
+}
 .img{
     width: 180px;
     height: 280px;
@@ -36,7 +39,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.profile_container h1, h2, h3, p{
+.profile_container  h2, h3, p{
     color: black;
 }
 

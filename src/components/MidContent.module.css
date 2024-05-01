@@ -12,6 +12,10 @@
     font-family: "Open Sans", sans-serif;
     margin-top: 2em;
 }
+.midContent h1{
+    color: #755483;
+    font-family: "Montserrat", sans-serif;
+}
 img{
     border-radius: 30px;
 }
