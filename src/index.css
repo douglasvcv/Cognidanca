@@ -8,3 +8,10 @@ body{
   background-size: cover;
   background: #eeeeee no-repeat ;
 }
+
+@media(max-width:500px){
+  body{
+    max-width: max-content;
+  
+  }
+}

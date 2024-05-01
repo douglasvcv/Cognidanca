@@ -19,3 +19,10 @@
 img{
     border-radius: 30px;
 }
+
+@media(max-width: 500px){
+    .midContent{
+        flex-direction: column;
+        margin-bottom: 3em;
+    }
+}

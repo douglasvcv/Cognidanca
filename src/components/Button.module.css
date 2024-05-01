@@ -24,3 +24,19 @@
    background: #e7d1dd;
    border: 2px solid transparent;
 }
+
+@media(max-width:500px){
+    .button_container{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .button_container a{
+        margin: 3em auto;
+        padding: 20px;
+        width: 30vw;
+        height: 69px;
+        display: flex;
+        align-items: center;
+    }
+}
