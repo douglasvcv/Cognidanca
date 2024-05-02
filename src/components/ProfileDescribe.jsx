@@ -16,12 +16,13 @@ function ProfileDescribe(){
     return (
         <>
     <div className={styles.aos} data-aos="fade-up">
+    
         <div className={styles.profile_container}>
             <div className={styles.first_div}>
             <h1>Quem sou eu?</h1>
             <img className={styles.img} src={profileImg} alt="Foto de perfil"/>
             </div>
-            <div>
+            <div className={styles.second_div}>
             <h2>Natália Souza</h2>
             <h3 className={styles.cargo}>Terapeuta Ocupacional</h3>
             <p>Idealizadora do Método Cognidança.</p>

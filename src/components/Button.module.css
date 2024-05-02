@@ -7,6 +7,7 @@
 .button_container a{
     margin: 10em 3em;
     text-decoration: none;
+    font-weight: 600;
     background: #e66fa3;
     color: rgb(22, 22, 22);
     padding: 50px;
@@ -29,14 +30,19 @@
     .button_container{
         flex-direction: column;
         margin: 0 auto;
-        width: 80vw;
+        width: 100vw;
+        background: linear-gradient(#D4D2CE, #E7E3E0);
     }
     .button_container a{
-        margin: 3em auto;
+        margin: 1em auto;
         padding: 20px;
-        width: 30vw;
-        height: 69px;
+        width: 35vw;
+        justify-content: center;
+        height: 6px;
         display: flex;
         align-items: center;
+        word-wrap:break-word;
+        overflow: hidden;
+        font-size: small;
     }
 }

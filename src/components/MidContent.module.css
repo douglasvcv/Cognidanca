@@ -8,9 +8,11 @@
 
 .midContent p{
     width: 800px;
-    font-size: large;
+    font-size: larger;
+    font-weight: 600;
     font-family: "Open Sans", sans-serif;
     margin-top: 2em;
+    
 }
 .midContent h1{
     color: #755483;
@@ -24,5 +26,21 @@ img{
     .midContent{
         flex-direction: column;
         margin-bottom: 3em;
+        margin: auto;
+        background: url(../images/image.png) no-repeat;
+        background-size: cover;
+        height: 50vh;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
     }
+    .midContent p, h1{
+        text-align: center;
+        width: 90vw;
+        margin-bottom: 1em;
+    }
+   
+    .midContent img{
+        display: none;
+    }
+
 }

@@ -47,6 +47,27 @@ h2, h3, p{
     font-family: "Montserrat", sans-serif;
 }
 
-@media(max-width: 400px){
+@media(max-width: 500px){
     
+    .profile_container{
+        margin-top: 3em;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: none;
+     
+    }
+    .first_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .first_div img{
+        border-radius: 90px;
+        height: 200px;
+    }
+    .second_div{
+        text-align: center;
+    }
 }
