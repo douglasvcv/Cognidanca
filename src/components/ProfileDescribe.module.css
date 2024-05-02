@@ -12,7 +12,7 @@
     margin: auto;
     width: max-content;
     border-radius: 40px;
-    background: #f1eff3;
+    background: #E3E0DD;
 }
 
 .first_div{
@@ -54,7 +54,7 @@ h2, h3, p{
         flex-direction: column;
         padding: 10px;
         box-shadow: none;
-     
+        background-color: #EEEAE9;
     }
     .first_div{
         display: flex;
